@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+}
+#date{
+    width:700px;
+    margin:0 auto;
+}
+.date-table thead tr th{
+    background: #999;
+    color: #ffffff;
+    border:1px solid #cccccc;
+    width:100px;
+    height:35px;
+    line-height:35px;
+}
+
+.date-table tbody tr td{
+    border:1px solid #cccccc;
+    height:60px;
+    vertical-align: top;
+    text-align: right;
+    background: rgba(204, 204, 204, 0.08);
+}
+.date-table tbody tr td.bg{
+    background: cornflowerblue;
+    border:none;
+    color: #ffffff;
+}
+.date-table tbody tr td.gray{
+    color: rgba(128, 128, 128, 0.18);
+}
+.date-table tbody tr td span{
+     display: block;
+}
+.date-table tbody tr td span:nth-of-type(1){
+    font-family:"Microsoft Himalaya";
+    font-size:30px;
+    margin:5px 5px 0 0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearFix:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.btn-group{
+    margin-top:20px;
+}
+.btn-group .switch>button{
+    width:100px;
+    height: 30px;
+    line-height:30px;
+    text-align: center;
+    font-size:18px;
+    border:0;
+    background: #999;
+    cursor: pointer;
+    font-weight:bold;
+}
+.btn-group .switch>span{
+    font-size:18px;
+    font-weight:bold;
+    padding:0 10px;
+}
+.btn-group .today{
+    margin-left:38px;
+}
